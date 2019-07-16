@@ -29,14 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+The DOM is the document object model. The dom treats html like a tree stucture. You can use JS to manipulate the DOM
 
 2. What is an event?
+an event is "thing" or "action" that happens to the HTML element
+examples include a click, change, a page finished loading etc
 
 3. What is an event listener?
+an event listener is the actual event the computer will look out for so the computer will only respond when that thing happens. so the computer will listen for a click or a scroll and then act accordingly
 
 4. Why would we convert a NodeList into an Array?
+so that we can use array methods
 
 5. What is a component?
+small potentially reusable piece of code or logic 
 
 ### Git Set up
 
@@ -68,3 +74,5 @@ Your stretch challenge is to write the functionality of a `Carousel` component. 
 * [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
 
 * [ ] If you have finished the above, research `data attributes`. Implement data attributes within your tabs as well as your cards. Give the tabs functionality so that when they are clicked they filter the cards to only display the cards that contain that topic.
+
+:)
